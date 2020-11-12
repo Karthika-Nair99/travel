@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3013587199",
+    "firebase_url": "https://login-auth-e30b4.firebaseio.com",
+    "project_id": "login-auth-e30b4",
+    "storage_bucket": "login-auth-e30b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3013587199:android:bdc817b1906ad6ba155cca",
+        "android_client_info": {
+          "package_name": "com.karthi.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3013587199-ec1n719dsmpff5n6o3564b3gq890ru7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karthi.travel",
+            "certificate_hash": "15268e62ae44b670507e69107ad20cda22336f82"
+          }
+        },
+        {
+          "client_id": "3013587199-s1ta6du12oahdf11g0aje4i3nc1iapf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2dFflojCHLUTg_0Rn7iF5cJRxEtviFO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3013587199-s1ta6du12oahdf11g0aje4i3nc1iapf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

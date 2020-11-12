@@ -58,9 +58,10 @@ class _AllDestinationState extends State<AllDestination> {
           children: [
           Text(userData[index]["name"],
             style: TextStyle(
-              fontSize: 26.0,
+              fontSize: 23.0,
               fontWeight: FontWeight.w600,
             ),
+
           ),
             Text(userData[index]["location"],
               style: TextStyle(

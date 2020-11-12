@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import'package:travel/pages/home_screen.dart';
-void main() => runApp(MyApp());
-
+import 'package:travel/pages/login.dart';
+import 'package:travel/pages/sign.dart';
+import 'package:firebase_core/firebase_core.dart';
+void main()async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -14,7 +20,7 @@ class MyApp extends StatelessWidget {
         accentColor:Color(0xFFF2D9F3) ,
         scaffoldBackgroundColor:Color(0xFFFBF3FB),
       ),
-      home: HomeScreen(),
+      home: StartPage(),
     );
   }
 }
