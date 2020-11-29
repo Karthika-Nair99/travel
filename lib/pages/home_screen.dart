@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:travel/pages/all_destination.dart';
+import 'package:travel/pages/signup.dart';
 import 'package:travel/widgets/destination_carousel.dart';
 import 'package:travel/widgets/hotel_carousel.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:travel/pages/sign.dart';
+import 'chatbot.dart';
 class HomeScreen extends StatefulWidget{
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -71,8 +74,11 @@ class _HomeScreenState extends State<HomeScreen>{
         onTap: (){
           setState(() {
             _selectedIndex = index;
+
           });
-          print(_selectedIndex);
+          if (_selectedIndex==3){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> Cb()));
+          }
         },
 
       child:Container(
