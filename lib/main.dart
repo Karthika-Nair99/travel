@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel/pages/cb.dart';
 import'package:travel/pages/home_screen.dart';
 import 'package:travel/pages/login.dart';
 import 'package:travel/pages/sign.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         accentColor:Color(0xFFF2D9F3) ,
         scaffoldBackgroundColor:Color(0xFFFBF3FB),
       ),
-      home: StartPage(),
+      home: Chb(),
     );
   }
 }
